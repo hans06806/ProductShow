@@ -4,7 +4,7 @@
   angular
     .module('articles');
     //.run(menuConfig);
-    /*
+    
   menuConfig.$inject = ['menuService'];
   
   function menuConfig(menuService) {
@@ -22,5 +22,5 @@
       roles: ['*']
     });
   }
-  */
+  
 }());

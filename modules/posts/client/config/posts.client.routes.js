@@ -15,7 +15,7 @@
         template: '<ui-view/>'
       })
       .state('posts.list', {
-        url: '',
+        url: '/list',
         templateUrl: 'modules/posts/client/views/list-posts.client.view.html',
         controller: 'PostsListController',
         controllerAs: 'vm',
