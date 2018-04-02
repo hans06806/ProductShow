@@ -29,7 +29,7 @@ var CategorySchema = new Schema({
     type: String,
     default: 0
   },
-  Image: {
+  Price: {
     type: Number,
     default: 0,
     min: 0

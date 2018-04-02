@@ -13,10 +13,17 @@
           </div>
         </div>
         <div class="form-group" show-errors>
-          <label class="control-label" for="quatityPerUnit">Quatity</label>
-          <input name="quatityPerUnit" type="text" ng-model="vm.category.quatityPerUnit" id="name" class="form-control" placeholder="quatityPerUnit" required>
+          <label class="control-label" for="quatityPerUnit">Stock</label>
+          <input name="quatityPerUnit" type="text" ng-model="vm.category.quatityPerUnit" id="name" class="form-control" placeholder="Stock" required>
           <div ng-messages="vm.form.categoryForm.quatityPerUnit.$error" role="alert">
-            <p class="help-block error-text" ng-message="required">Quatity</p>
+            <p class="help-block error-text" ng-message="required">Stock</p>
+          </div>
+        </div>
+        <div class="form-group" show-errors>
+          <label class="control-label" for="Price">Price</label>
+          <input name="Price" type="text" ng-model="vm.category.Price" id="name" class="form-control" placeholder="Price" required>
+          <div ng-messages="vm.form.categoryForm.Price.$error" role="alert">
+            <p class="help-block error-text" ng-message="required">Price</p>
           </div>
         </div>
         <div class="form-group" show-errors>
